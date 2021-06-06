@@ -102,8 +102,8 @@ canvas {
   list-style-type: none;
   position: fixed;
   left: -10%;
-  top: 75%;
-  transform: translateY(-80%);
+  top: 45%;
+  transform: translateY(-50%);
   z-index: 100;
 }
 .btnPic li{
@@ -139,7 +139,7 @@ canvas {
 .name{
   position: absolute;
   top: 69.5%;
-  right: 1%;
+  right: 8%;
   width: 100%;
   transform: translateY(-50%);
   z-index: 1;
