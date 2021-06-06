@@ -1,0 +1,90 @@
+/*------------------------------------------------------------------------------
+page Layout css style
+------------------------------------------------------------------------------*/
+/*селектор класса*/
+.main {
+    /*свой-во : значение*/
+    display: flex;
+    padding: 2em;
+    height: 105vh;
+    justify-content: center;
+    /*выравнивает флекс-элементы внутри контейнера в перпендикулярном направлении*/
+    align-items: middle;
+}
+
+.clockbox,
+
+/* селектор индификаторов (id)*/
+#clock {
+    width: 100%;
+}
+
+/*------------------------------------------------------------------------------
+Clock css styles
+------------------------------------------------------------------------------*/
+.circle {
+    /* цвет формы*/
+    fill: none;
+    /*цвет внешней линии указанного графического элемента*/
+    stroke: rgb(225, 0, 0);
+    /*толщину контура элемента.*/
+    stroke-width: 12px;
+    
+}
+
+.mid-circle {
+    fill: rgb(0, 100, 0);
+}
+.hour-marks {
+    fill: none;
+    stroke: rgb(0, 100, 0);
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+
+}
+
+.hour-arm {
+    fill: none;
+    stroke: #FF4500;
+    stroke-width: 17;
+    stroke-miterlimit: 10;
+}
+
+
+.minute-arm {
+    fill: none;
+    stroke: #0059b3;
+    stroke-width: 11;
+    stroke-miterlimit: 10;
+}
+
+.second-arm {
+    fill: none;
+    stroke: #FFD700;
+    stroke-width: 4;
+    stroke-miterlimit: 10;
+}
+
+/* Transparent box ensuring arms center properly. */
+.sizing-box {
+    fill: none;
+}
+
+/* Make all arms rotate around the same center point. */
+/* Optional: Use transition for animation. */
+/* селектор индификаторов*/
+#hour,
+#minute,
+#second {
+    /*указывает начало координат*/
+    transform-origin: 300px 300px;
+    transition: transform .5s ease-in-out;
+}
+#headerTitle{
+
+    color: rgb(0, 100, 0);
+    font-family: "Snell Roundhand", cursive;
+
+}
+
+/*----------------------------------------------------------------------------*/
