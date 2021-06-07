@@ -1,0 +1,19 @@
+    /*
+    if (rect1.x < Pacman.blockSize * x + 9.5 &&
+        rect1.x + rect1.width > Pacman.blockSize * x + 9.5 &&
+        rect1.y < Pacman.blockSize * y &&
+        rect1.y + rect1.height > Pacman.blockSize * y) {
+            switch(dir){
+                case "up":
+                    y = y + 0.1;
+                    Player.y = y;
+                    break;
+                case "down":
+                    y = y - 0.1;
+                    Player.y = y;
+                    break;
+                default:
+                    break;
+            }
+         console.log("this is box");
+     }*/
