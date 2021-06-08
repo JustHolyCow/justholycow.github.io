@@ -81,7 +81,7 @@ function drawCollision()
     {
         line = Pacman.Collision[i];
         ctx.beginPath();
-        ctx.fillStyle = "rgba(255, 0, 0, 0)";
+        ctx.fillStyle = "rgba(255, 0, 0, 0.4)";
         ctx.fillRect(line.x, line.y, line.width, line.height);
         ctx.closePath();
     }
