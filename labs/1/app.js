@@ -1,8 +1,8 @@
 function math(){
-	let a = prompt("Введите коэффициент A",);
+	let a = prompt("Введите A",);
 	if(a == 0){
-		let b = prompt("Введите коэффициент B",);
-		let c = prompt("Введите коэффициент C",); 
+		let b = prompt("Введите B",);
+		let c = prompt("Введите C",); 
 		if(b == 0){
 			if(c == 0)
 				alert("0 == 0");
@@ -13,8 +13,8 @@ function math(){
 			alert("Корень уравнения " + ((-c)/b));
 	}
 	else{
-		let b = prompt("Введите коэффициент при B",);
-		let c = prompt("Введите коэффициент при C",); 
+		let b = prompt("Введите B",);
+		let c = prompt("Введите C",); 
 		alert("Дискриминант " + (b*b-4*a*c));
 		if((b*b-4*a*c) < 0){
 			alert("Первый корень уравнения " + (-b/ 2*a)+ " + " + (((Math.sqrt(Math.abs(b*b-4*a*c))/ 2*a).toFixed(2) + "i")));
